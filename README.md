@@ -52,9 +52,6 @@ Install dependencies using:
 pip install -r requirements.txt
 ```
 
-## License
-This project is licensed under the MIT License.
-
 ## Contributing
 Feel free to submit pull requests or report issues to improve the implementation.
 
