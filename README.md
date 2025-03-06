@@ -1,5 +1,3 @@
-# Schnorr-Signature-Implementation
-
 # Schnorr Signature Implementation
 
 This repository contains an implementation of the Schnorr digital signature scheme in Python. The implementation includes key generation, signing, and verification functions, as well as necessary cryptographic utilities.
