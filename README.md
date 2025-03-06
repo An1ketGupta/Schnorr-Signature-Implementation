@@ -4,6 +4,20 @@
 
 This repository contains an implementation of the Schnorr digital signature scheme in Python. The implementation includes key generation, signing, and verification functions, as well as necessary cryptographic utilities.
 
+## Overview
+This project implements a Blind Signature scheme using Schnorr Signing. It allows for secure and private message signing without revealing the actual content to the signer.
+
+### How It Works
+#### Key Generation:
+
+Run create_key.py to generate a public-private key pair.
+The keys are stored in user.json.
+#### Signing Process:
+
+Execute schnorr_sign.py to generate a Schnorr signature for a given message.
+#### Verification:
+
+Run schnorr_verify.py to validate the generated signature and ensure authenticity.
 ## Files Overview
 
 - **create_key.py** - Generates key pairs (private and public keys) for signing and verification.
